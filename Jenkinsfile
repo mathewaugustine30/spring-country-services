@@ -24,7 +24,7 @@ pipeline {
 
                 steps {
                      withMaven {
-                        bat 'mvn package'
+                        bat 'mvn deploy'
                      }
                 }
             }
