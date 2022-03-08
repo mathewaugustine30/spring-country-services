@@ -22,7 +22,7 @@ node{
       bat "${mvnHome}/bin/mvn test"
       }
    stage('Deploy to Tomcat'){
-     bat "copy target\\JenkinsWar.war \"${tomcatWeb}\\JenkinsWar.war\""
+     bat "copy target\\country-services-rest-api.war \"${tomcatWeb}\\country-services-rest-api.war\""
    }
       stage ('Start Tomcat Server') {
          sleep(time:5,unit:"SECONDS")
