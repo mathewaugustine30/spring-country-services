@@ -12,6 +12,7 @@
 	<artifactId>country-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>country-services</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -65,6 +66,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>country-services-rest-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -95,6 +97,7 @@
 					<excludes>
 
 						<exclude>com/country/management/*Application.class</exclude>
+						<exclude>com/country/management/*Initializer.class</exclude>
 						<exclude>com/country/management/entity/**/*</exclude>
 						<exclude>com/country/management/dto/**/*</exclude>
 						<exclude>com/country/management/exception//**/*</exclude>
