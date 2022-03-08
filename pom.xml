@@ -157,6 +157,7 @@
 					<server>TomcatServer</server>
 					<username>admin</username>
 					<password>admin</password>
+					<path>/country-services-rest-api</path>
 				</configuration>
 			</plugin>
 			<!--Jococo code coverage plugins end -->
