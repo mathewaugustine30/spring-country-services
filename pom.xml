@@ -148,7 +148,8 @@
 					<!-- Goal for coverage check for 50% end-->
 				</executions>
 			</plugin>
-			<plugin>
+			<!--tomcat7-maven-plugin for war deployment start -->
+<!--			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
@@ -159,7 +160,9 @@
 					<username>admin</username>
 					<password>admin</password>
 				</configuration>
-			</plugin>
+			</plugin>-->
+			<!--tomcat7-maven-plugin for war deployment end -->
+
 			<!--Jococo code coverage plugins end -->
 			<!--Sonar code  plugins start -->
 <!--			<plugin>
